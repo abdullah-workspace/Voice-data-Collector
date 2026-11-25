@@ -1,0 +1,44 @@
+name: hearassist_data_collector
+description: "A data collection tool for HearAssist Final Year Project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Audio recording and playback
+  record: ^6.2.1
+  just_audio: ^0.10.5
+
+  # Permissions and device features
+  permission_handler: 11.3.1
+  wakelock_plus: ^1.3.3
+
+  # Storage and files
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  archive: ^4.0.4
+  csv: ^6.0.0
+  shared_preferences: ^2.5.4
+
+  # Sharing
+  share_plus: ^12.0.1
+
+  # State management
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
